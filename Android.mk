@@ -1,3 +1,4 @@
+ifeq ($(TARGET_ARCH), arm64)
 LOCAL_PATH := $(my-dir)
 
 # Bromite
@@ -21,3 +22,4 @@ LOCAL_OVERRIDES_PACKAGES := WebView webview
 LOCAL_SRC_FILES := app/arm64_SystemWebView.apk
 
 include vendor/Bromite/bromite.mk
+endif
