@@ -6,7 +6,7 @@ android_app_import {
         "Browser2",
         "QuickSearchBox",
     ],
-    apk: "app/arm64_ChromePublic.apk",
+    apk: "app/ChromePublic/arm64/arm64_ChromePublic.apk",
     presigned: true,
 }
 
@@ -18,7 +18,7 @@ android_app_import {
         "WebView",
         "webview",
     ],
-    apk: "app/arm64_SystemWebView.apk",
+    apk: "app/SystemWebView/arm64/arm64_SystemWebView.apk",
     presigned: true,
 }
 
