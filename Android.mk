@@ -2,7 +2,7 @@ LOCAL_PATH := $(my-dir)
 
 # Bromite
 include $(CLEAR_VARS)
-LOCAL_MODULE := org.bromite.bromite
+LOCAL_MODULE := Bromite
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
@@ -12,7 +12,7 @@ include $(BUILD_PREBUILT)
 
 # Bromite Webview
 include $(CLEAR_VARS)
-LOCAL_MODULE := org.bromite.webview
+LOCAL_MODULE := BromiteSystemWebView
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
