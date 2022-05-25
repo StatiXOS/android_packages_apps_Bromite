@@ -1,0 +1,24 @@
+// Bromite
+android_app_import {
+    name: "Bromite",
+
+    overrides: [
+        "Browser2",
+        "QuickSearchBox",
+    ],
+    apk: "app/arm64_ChromePublic.apk",
+    presigned: true,
+}
+
+// Bromite Webview
+android_app_import {
+    name: "BromiteSystemWebView",
+
+    overrides: [
+        "WebView",
+        "webview",
+    ],
+    apk: "app/arm64_SystemWebView.apk",
+    presigned: true,
+}
+
