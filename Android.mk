@@ -11,6 +11,7 @@ LOCAL_OVERRIDES_PACKAGES := Browser2 QuickSearchBox
 LOCAL_SRC_FILES := app/$(TARGET_ARCH)/ChromePublic.apk
 include $(BUILD_PREBUILT)
 
+ifeq ($(USES_BROMITE_WEBVIEW), yes)
 # Bromite Webview
 include $(CLEAR_VARS)
 LOCAL_MODULE := BromiteSystemWebView
@@ -21,3 +22,4 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_OVERRIDES_PACKAGES := WebView webview
 LOCAL_SRC_FILES := app/$(TARGET_ARCH)/SystemWebView.apk
 include $(BUILD_PREBUILT)
+endif
