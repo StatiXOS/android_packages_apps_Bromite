@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ac17e1b5_236bff68",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2022-07-06T03:52:12Z",
+      "side": 1,
+      "message": "works, but it first spits a \"Command \u0027jq\u0027 not found\" error at first.",
+      "revId": "fd39e121d666de5106d6c32a6719b9bbc3a1779b",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    }
+  ]
+}
